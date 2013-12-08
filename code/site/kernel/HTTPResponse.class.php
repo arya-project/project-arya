@@ -7,6 +7,5 @@ class HTTPResponse {
 	public function send() {
 		//send the response of the server
 	}
-
 }
 ?>

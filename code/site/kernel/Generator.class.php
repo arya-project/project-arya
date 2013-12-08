@@ -13,6 +13,5 @@ class Generator {
 	private function _collectModuleData() {
 		
 	}
-	
-}
+}	
 ?>

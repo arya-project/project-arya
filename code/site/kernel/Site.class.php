@@ -7,7 +7,7 @@ class Site {
 	private $_httpRequest;
 	private $_router;
 	
-	public function __contruct() {
+	public function __construct() {
 		$this->_httpRequest = new HTTPRequest($this);
     	$this->_httpResponse = new HTTPResponse($this);
     	$this->_router = new Router();

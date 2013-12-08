@@ -5,13 +5,31 @@ class Site {
 
 	private $_httpResponse;
 	private $_httpRequest;
-	private $_Router;
+	private $_router;
 	
 	public function __contruct() {
 		$this->_httpRequest = new HTTPRequest($this);
     	$this->_httpResponse = new HTTPResponse($this);
-    	$this->_Router = new Router();
+    	$this->_router = new Router();
 	}
+	
+
+	
+	
+	public function run() {
+		
+	}
+	
+	
+	public function httpRequest() {
+    	return $this->httpRequest;
+    }
+   
+    public function httpResponse() {
+    	return $this->httpResponse;
+    }
+   
+	
 
 }
 ?>
